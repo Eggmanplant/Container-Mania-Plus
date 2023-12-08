@@ -6,12 +6,12 @@ cmake -B build && cmake --build build --config release
 cd ~
 cd game
 make
-cd ./bin/Linux
 mkdir ~/files
-cp SonicMania.so ~/files/Game.so
+cp ~/game/bin/Linux/SonicMania.so ~/files/Game.so
 rm ~/.bashrc
 echo 'cd ~/files' >> ~/.bashrc
-echo 'ln -s ~/files ~/../Documents/SonicMania' >> ~/.bashrc
+ln -s ~/files ~/../Documents
+mv ~/../Documents/files ~/../Documents/SonicMania
 echo '~/engine/build/RSDKv5U' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
 exit
