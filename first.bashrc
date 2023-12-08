@@ -14,4 +14,5 @@ ln -s ~/files ~/../Documents
 mv ~/../Documents/files ~/../Documents/SonicMania
 echo '~/engine/build/RSDKv5U' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
+echo Done. Run Sonic Mania from your desktop's application launcher.
 exit
