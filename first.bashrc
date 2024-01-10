@@ -15,5 +15,6 @@ mv ~/../Documents/files ~/../Documents/SonicMania
 echo '~/engine/build/RSDKv5U' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
 echo 'bash' >> ~/.zshrc
-echo 'Done. Run Sonic Mania from your desktop's application launcher.'
+echo 'exit' >> ~/.zshrc
+echo 'Done. Run Sonic Mania from your desktops application launcher.'
 exit
