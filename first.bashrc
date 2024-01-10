@@ -1,4 +1,5 @@
 cd ~
+rm .zshrc
 git clone --recursive https://github.com/Rubberduckycooly/RSDKv5-Decompilation engine
 git clone https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation game
 cd engine
