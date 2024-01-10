@@ -1,7 +1,7 @@
 echo Sonic Mania for Fedora Silverblue - setup
 echo  
 echo Creating container
-distrobox create --image archlinux:latest --name SonicMania --home ~/.mania --additional-packages "base-devel glew glfw libtheora portaudio git cmake"
+distrobox create -Y --image archlinux:latest --name SonicMania --home ~/.mania --additional-packages "base-devel glew glfw libtheora portaudio git cmake"
 cd ~
 mkdir .mania
 cd .mania
