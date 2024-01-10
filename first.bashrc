@@ -16,5 +16,4 @@ echo '~/engine/build/RSDKv5U' >> ~/.bashrc
 echo 'exit' >> ~/.bashrc
 echo 'bash' >> ~/.zshrc
 echo 'exit' >> ~/.zshrc
-echo 'Done. Run Sonic Mania from your desktops application launcher.'
 exit
