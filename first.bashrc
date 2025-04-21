@@ -18,7 +18,7 @@ echo 'cd ~/files' >> ~/.bashrc
 ln -s ~/files ~/../Documents
 mv ~/../Documents/files ~/../Documents/SonicMania
 echo '~/engine/build/RSDKv5U' >> ~/.bashrc
-echo 'exit' >> ~/.bashrc
+echo 'exit 0' >> ~/.bashrc
 echo 'bash' >> ~/.zshrc
-echo 'exit' >> ~/.zshrc
+echo 'exit 0' >> ~/.zshrc
 exit
