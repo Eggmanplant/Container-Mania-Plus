@@ -7,7 +7,7 @@ mkdir .mania
 cd .mania
 rm .bashrc
 rm .zshrc
-curl https://raw.githubusercontent.com/Eggmanplant/Sonic-Mania-Fedora-Silverblue/main/first.bashrc > .bashrc
+curl https://raw.githubusercontent.com/Eggmanplant/Container-Mania-Plus/main/first.bashrc > .bashrc
 echo 'bash' >> ./.zshrc
 cd ..
 distrobox enter SonicMania
