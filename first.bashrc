@@ -8,7 +8,11 @@ cd ~
 cd game
 make
 mkdir ~/files
+mkdir -p ~/files/mods/GLShaders/Data/Shaders
 cp ~/game/bin/Linux/SonicMania.so ~/files/Game.so
+cp -r ~/engine/RSDKv5/Shaders/OGL ~/files/mods/GLShaders/Data/Shaders
+printf "Name=GLShaders\nDescription=OGLShaders\nAuthor=Ducky\nVersion=1.0.0\nTargetVersion=5\n" > ~/files/mods/GLShaders/mod.ini
+printf "[Mods]\nGLShaders=y\n" > ~/files/mods/modconfig.ini
 rm ~/.bashrc
 echo 'cd ~/files' >> ~/.bashrc
 ln -s ~/files ~/../Documents
